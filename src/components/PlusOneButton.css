@@ -1,0 +1,13 @@
+/* src/components/PlusOneButton.css */
+button.PlusOne {
+  flex: 1;
+  border: 1px solid #ccc;
+  font-size: 150%;
+  margin: 12px;
+  cursor: pointer;
+  max-width: 50px;
+}
+
+button.PlusOne:hover {
+  background-color: #eee;
+}

@@ -1,0 +1,37 @@
+/* src/components/Trophy.css */
+.Trophy {
+  flex: 1;
+  list-style: none;
+  padding: 12px;
+  text-align: center;
+  align-self: flex-end;
+  border: 1px solid #eee;
+  font-size: 110%;
+}
+
+.Trophy.gold {
+  padding: 48px 12px;
+  order: 1;
+}
+
+.Trophy.silver {
+  padding: 24px 12px;
+  order: 0;
+}
+
+.Trophy.bronze {
+  order: 3;
+  padding-top: 18px;
+}
+
+.Trophy.gold .icon {
+  color: #fed800;
+}
+
+.Trophy.silver .icon {
+  color: #ccc;
+}
+
+.Trophy.bronze .icon {
+  color: #cc9900;
+}
